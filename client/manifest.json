@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Tracker",
+  "version": "1.0",
+  "description": "Track and enhance your productivity with website monitoring and goal setting",
+  "permissions": [
+    "storage",
+    "tabs",
+    "webNavigation",
+    "background"
+  ],
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Productivity Tracker"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';",
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; worker-src 'self'"
+  },
+  "web_accessible_resources": [{
+    "resources": ["index.html", "*.js", "*.css"],
+    "matches": ["<all_urls>"]
+  }],
+  "icons": {
+    "16": "https://api.iconify.design/lucide:clock.svg?width=16",
+    "48": "https://api.iconify.design/lucide:clock.svg?width=48",
+    "128": "https://api.iconify.design/lucide:clock.svg?width=128"
+  }
+}
