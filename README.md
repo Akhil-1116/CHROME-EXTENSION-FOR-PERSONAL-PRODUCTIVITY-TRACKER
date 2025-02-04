@@ -26,3 +26,6 @@ A React-based Chrome extension designed to help users track and enhance their pr
 
 #OUTPUTS
 
+![Image](https://github.com/user-attachments/assets/d2c841c6-c13a-42c0-b1ad-5410d143c020)
+![Image](https://github.com/user-attachments/assets/06c5446f-e83f-488a-8554-84ff6ee4786a)
+![Image](https://github.com/user-attachments/assets/cb028bf1-cc01-4959-82d1-a3e06dddeb9a)
